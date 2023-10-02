@@ -3,6 +3,16 @@
 import {CgProfile} from "react-icons/cg";
 import {FaUser} from "react-icons/fa";
 import {BiCalendarAlt} from "react-icons/bi";
+import {GoHome} from "react-icons/go";
+import {IoIosPeople} from "react-icons/io";
+import {PiCalendarCheck} from "react-icons/pi";
+import {PiShareNetworkDuotone} from "react-icons/pi";
+import {FaRegFileAlt} from "react-icons/fa";
+import {BiDockLeft} from "react-icons/bi";
+import {IoIosHeartEmpty} from "react-icons/io";
+import {BiChevronLeft} from "react-icons/bi";
+import {LuSettings} from "react-icons/lu";
+import {CgWorkAlt} from "react-icons/cg";
 import Image from "./assets/Image.png";
 
 
@@ -15,7 +25,20 @@ function App() {
           <div className="w-[4vw] bg-white">
             <div className="bg-slate-200 rounded-full w-[2.5vw] h-[5vh] mt-3 ml-3"></div>
             <div>
-              
+              <GoHome className="text-black w-[4vw] h-[4vh] mt-12 " />
+              <IoIosPeople className="text-black w-[4vw] h-[4vh] mt-12 " />
+              <PiCalendarCheck className="text-black w-[4vw] h-[4vh] mt-12 " />
+              <main className="bg-slate-300 w-[3.5vw] h-[6vh] ml-1 rounded-xl mt-12">
+                  <PiShareNetworkDuotone className="text-blue-900 -mb-6 w-[3vw] h-[4vh] ml-2"/>
+              </main>
+              <FaRegFileAlt className="text-black w-[4vw] h-[4vh] mt-12 " />
+              <BiDockLeft className="text-black w-[4vw] h-[4vh] mt-12 " />
+              <IoIosHeartEmpty className="text-black w-[4vw] h-[4vh] mt-12 " />
+              <BiChevronLeft className="text-black w-[4vw] h-[4vh] mt-12 " />
+              <LuSettings className="text-black w-[4vw] h-[4vh] mt-16" />
+              <div className="w-[2vw] h-[4vh] bg-slate-300 text-blue-700 rounded-[100%] text-md text-center font-bold mt-8 ml-3">
+                      AS
+                </div>
             </div>
 
           </div>
@@ -412,15 +435,19 @@ function App() {
                   <p className="text-black text-sm pl-12 pt-3 font-bold">Bachelor of Biochemistry</p>
 
                   <div className='flex space-x-3'>
-                  <p className="text-black text-md pl-12">Cyber Security Intern</p>
-                  <span className="text-slate-400">|</span>
-                  <p className="text-slate-400">Saudi Arabia</p>
-                  <span className="text-slate-400">|</span>
-                  <p className="text-slate-400">Jan 2022-Jan2023</p>
+                  <div className="flex">
+                      <main className="border-2 border-slate-100 w-[3vw] h-[5vh] rounded-lg ml-5 mt-3">
+                        <CgWorkAlt  className="text-black w-[3vw] h-[3vh] mt-1"/>
+                      </main>
+                   <p className="text-black text-md pl-8 mt-4">Cyber Security Intern</p>
+                   </div>
+                
                   </div>
                  
                   <div className='flex space-x-3 mt-5'>
-                  <p className="text-black text-md pl-12">Cyber Security Intern</p>
+                    
+                   <p className="text-black text-md pl-24 mb-2">Cyber Security Intern</p>
+                  
                   <span className="text-slate-400">|</span>
                   <p className="text-slate-400">Saudi Arabia</p>
                   <span className="text-slate-400">|</span>
